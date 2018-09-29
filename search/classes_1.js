@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['floppydrive',['FloppyDrive',['../classCore_1_1HW_1_1FloppyDrive.html',1,'Core::HW']]]
+  ['codeviewwidget',['CodeViewWidget',['../classCodeViewWidget.html',1,'']]],
+  ['codewidget',['CodeWidget',['../classCodeWidget.html',1,'']]],
+  ['cpuexception',['CPUException',['../classCore_1_1CPU_1_1CPUException.html',1,'Core::CPU']]]
 ];

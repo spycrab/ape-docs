@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['if',['IF',['../classCore_1_1CPU_1_1CPU.html#ac1653ae322ec529d39865a8e81d9e5a2',1,'Core::CPU::CPU']]],
-  ['ip',['IP',['../classCore_1_1CPU_1_1CPU.html#ac546e57945f132845594f5ab42617bfe',1,'Core::CPU::CPU']]]
+  ['if',['IF',['../namespaceCore_1_1CPU.html#a72f98c50ba04b54f302237fcc922bdee',1,'Core::CPU']]],
+  ['ip',['IP',['../namespaceCore_1_1CPU.html#a1bc8d457739fff8ed2dc5df1de9383f4',1,'Core::CPU']]]
 ];

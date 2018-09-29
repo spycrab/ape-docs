@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['es',['ES',['../classCore_1_1CPU_1_1CPU.html#a64c8278629e991a45bf5162b5ac75b34',1,'Core::CPU::CPU']]]
+  ['es',['ES',['../namespaceCore_1_1CPU.html#a2883b3a093b938d6ee0bcb0865aac723',1,'Core::CPU']]]
 ];

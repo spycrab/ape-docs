@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ape
-   &#160;<span id="projectnumber">DONTRELEASEME-148</span>
+   &#160;<span id="projectnumber">0.0.1</span>
    </div>
   </td>
  </tr>
@@ -67,12 +67,17 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">CPU.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;atomic&gt;</code><br />
+<code>#include &lt;functional&gt;</code><br />
 <code>#include &quot;<a class="el" href="Logger_8h_source.html">Common/Logger.h</a>&quot;</code><br />
 <code>#include &quot;Common/String.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="Types_8h_source.html">Common/Types.h</a>&quot;</code><br />
@@ -84,9 +89,96 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1CPU_1_1CPU.html">Core::CPU::CPU</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of the Central Processing Unit.  <a href="classCore_1_1CPU_1_1CPU.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">union &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="unionCore_1_1CPU_1_1GPR.html">Core::CPU::GPR</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespaceCore_1_1CPU"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCore_1_1CPU.html">Core::CPU</a></td></tr>
+<tr class="memdesc:namespaceCore_1_1CPU"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of the Central Processing Unit. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a3ff5b6f8faffb5f4b150b9a404bb631d"><td class="memItemLeft" align="right" valign="top"><a id="a3ff5b6f8faffb5f4b150b9a404bb631d"></a>
+using&#160;</td><td class="memItemRight" valign="bottom"><b>Core::CPU::StateCallbackFunc</b> = std::function&lt; void(State)&gt;</td></tr>
+<tr class="separator:a3ff5b6f8faffb5f4b150b9a404bb631d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ad19bcf3ec31da74cbc0c6a444509b65b"><td class="memItemLeft" align="right" valign="top"><a id="ad19bcf3ec31da74cbc0c6a444509b65b"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>RepeatMode</b> : u8 { <b>None</b>, 
+<b>Repeat</b>, 
+<b>Repeat_Zero</b>, 
+<b>Repeat_Non_Zero</b>
+ }</td></tr>
+<tr class="separator:ad19bcf3ec31da74cbc0c6a444509b65b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fc0bbeb8da9699acc5345b78d79c2dd"><td class="memItemLeft" align="right" valign="top"><a id="a3fc0bbeb8da9699acc5345b78d79c2dd"></a>enum &#160;</td><td class="memItemRight" valign="bottom"><b>State</b> : u8 { <b>Stopped</b>, 
+<b>Running</b>, 
+<b>Paused</b>
+ }</td></tr>
+<tr class="separator:a3fc0bbeb8da9699acc5345b78d79c2dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a419a05e4bde548fed0ef9c30cdc0614c"><td class="memItemLeft" align="right" valign="top"><a id="a419a05e4bde548fed0ef9c30cdc0614c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCore_1_1CPU.html#a419a05e4bde548fed0ef9c30cdc0614c">Core::CPU::Tick</a> ()</td></tr>
+<tr class="memdesc:a419a05e4bde548fed0ef9c30cdc0614c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute one <a class="el" href="namespaceCore_1_1CPU.html" title="Representation of the Central Processing Unit. ">CPU</a> cycle. <br /></td></tr>
+<tr class="separator:a419a05e4bde548fed0ef9c30cdc0614c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07620d621a62b52d756895806356369c"><td class="memItemLeft" align="right" valign="top"><a id="a07620d621a62b52d756895806356369c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCore_1_1CPU.html#a07620d621a62b52d756895806356369c">Core::CPU::Start</a> ()</td></tr>
+<tr class="memdesc:a07620d621a62b52d756895806356369c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute instructions until shutdown is requested. <br /></td></tr>
+<tr class="separator:a07620d621a62b52d756895806356369c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5abf108997fa902ec62e55bef1e454e"><td class="memItemLeft" align="right" valign="top"><a id="ad5abf108997fa902ec62e55bef1e454e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Core::CPU::RegisterStateChangedCallback</b> (StateCallbackFunc fnc)</td></tr>
+<tr class="separator:ad5abf108997fa902ec62e55bef1e454e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed659696564b95eff2472acafaf48ffa"><td class="memItemLeft" align="right" valign="top"><a id="aed659696564b95eff2472acafaf48ffa"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Core::CPU::UnregisterStateChangedCallback</b> (StateCallbackFunc fnc)</td></tr>
+<tr class="separator:aed659696564b95eff2472acafaf48ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8cb8b4075ef09ca3e5c936516320fe3"><td class="memItemLeft" align="right" valign="top"><a id="aa8cb8b4075ef09ca3e5c936516320fe3"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCore_1_1CPU.html#aa8cb8b4075ef09ca3e5c936516320fe3">Core::CPU::Stop</a> ()</td></tr>
+<tr class="memdesc:aa8cb8b4075ef09ca3e5c936516320fe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the <a class="el" href="namespaceCore_1_1CPU.html" title="Representation of the Central Processing Unit. ">CPU</a>. <br /></td></tr>
+<tr class="separator:aa8cb8b4075ef09ca3e5c936516320fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92a51f0b552be6e513671de433f4b3ba"><td class="memItemLeft" align="right" valign="top"><a id="a92a51f0b552be6e513671de433f4b3ba"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Core::CPU::SetPaused</b> (bool value)</td></tr>
+<tr class="separator:a92a51f0b552be6e513671de433f4b3ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afabdedcf4157b562a9b0ddaaf1dcb4ec"><td class="memItemLeft" align="right" valign="top"><a id="afabdedcf4157b562a9b0ddaaf1dcb4ec"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Core::CPU::IsRunning</b> ()</td></tr>
+<tr class="separator:afabdedcf4157b562a9b0ddaaf1dcb4ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a528def1e392b4e066c0f6d66e4cf13d8"><td class="memItemLeft" align="right" valign="top"><a id="a528def1e392b4e066c0f6d66e4cf13d8"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Core::CPU::IsPaused</b> ()</td></tr>
+<tr class="separator:a528def1e392b4e066c0f6d66e4cf13d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa504dc0f884b34e17d48a178235c3231"><td class="memItemLeft" align="right" valign="top"><a id="aa504dc0f884b34e17d48a178235c3231"></a>
+State&#160;</td><td class="memItemRight" valign="bottom"><b>Core::CPU::GetState</b> ()</td></tr>
+<tr class="separator:aa504dc0f884b34e17d48a178235c3231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae846baa015aef0e3a420e33524fc07d2"><td class="memItemLeft" align="right" valign="top"><a id="ae846baa015aef0e3a420e33524fc07d2"></a>
+<a class="el" href="Types_8h.html#a6dbf9516e516c901604625282c174aa4">u16</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Core::CPU::PrefixToValue</b> (Instruction::SegmentPrefix prefix)</td></tr>
+<tr class="separator:ae846baa015aef0e3a420e33524fc07d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00be5341e6badfa6045ea65162cd42f6"><td class="memItemLeft" align="right" valign="top"><a id="a00be5341e6badfa6045ea65162cd42f6"></a>
+PRIVATE void&#160;</td><td class="memItemRight" valign="bottom"><b>Core::CPU::UpdateZF</b> (<a class="el" href="Types_8h.html#a6dbf9516e516c901604625282c174aa4">u16</a> value)</td></tr>
+<tr class="separator:a00be5341e6badfa6045ea65162cd42f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c4b7547150ec959226b01fbac7bcd2c"><td class="memItemLeft" align="right" valign="top"><a id="a8c4b7547150ec959226b01fbac7bcd2c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Core::CPU::UpdatePF</b> (<a class="el" href="Types_8h.html#a6dbf9516e516c901604625282c174aa4">u16</a> value)</td></tr>
+<tr class="separator:a8c4b7547150ec959226b01fbac7bcd2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa23baf0f9d69a159508805ef168196ec"><td class="memItemLeft" align="right" valign="top"><a id="aa23baf0f9d69a159508805ef168196ec"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Core::CPU::UpdateSF</b> (<a class="el" href="Types_8h.html#a977685259fe8059c48e92450967d46a8">i16</a> value)</td></tr>
+<tr class="separator:aa23baf0f9d69a159508805ef168196ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2b7aba3b3683caad17ecd564f7fe39e"><td class="memTemplParams" colspan="2"><a id="ab2b7aba3b3683caad17ecd564f7fe39e"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab2b7aba3b3683caad17ecd564f7fe39e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>Core::CPU::UpdateOF</b> (<a class="el" href="Types_8h.html#aec41e5f8e4b7aef2540e84268692fa84">i32</a> value)</td></tr>
+<tr class="separator:ab2b7aba3b3683caad17ecd564f7fe39e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e77e95181dce15f0e1fd1429c10ee97"><td class="memTemplParams" colspan="2"><a id="a3e77e95181dce15f0e1fd1429c10ee97"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a3e77e95181dce15f0e1fd1429c10ee97"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>Core::CPU::UpdateCF</b> (<a class="el" href="Types_8h.html#aec41e5f8e4b7aef2540e84268692fa84">i32</a> value)</td></tr>
+<tr class="separator:a3e77e95181dce15f0e1fd1429c10ee97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a210c979f93763a6ee42ac44362025500"><td class="memItemLeft" align="right" valign="top"><a id="a210c979f93763a6ee42ac44362025500"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Core::CPU::CallInterrupt</b> (<a class="el" href="Types_8h.html#a987e4d6cf789cb59dbb390728271e4d6">u8</a> vector)</td></tr>
+<tr class="separator:a210c979f93763a6ee42ac44362025500"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a988c3e1750668b21888f212a7153ac8f"><td class="memItemLeft" align="right" valign="top"><a id="a988c3e1750668b21888f212a7153ac8f"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Core::CPU::CallBIOSInterrupt</b> (<a class="el" href="Types_8h.html#a987e4d6cf789cb59dbb390728271e4d6">u8</a> vector)</td></tr>
+<tr class="separator:a988c3e1750668b21888f212a7153ac8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dfa8c596e4b1b7b69ff82ec25642024"><td class="memItemLeft" align="right" valign="top"><a id="a3dfa8c596e4b1b7b69ff82ec25642024"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>Core::CPU::CallMSDOSInterrupt</b> (<a class="el" href="Types_8h.html#a987e4d6cf789cb59dbb390728271e4d6">u8</a> vector)</td></tr>
+<tr class="separator:a3dfa8c596e4b1b7b69ff82ec25642024"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

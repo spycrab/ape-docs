@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['af',['AF',['../classCore_1_1CPU_1_1CPU.html#a3055a8c08c753c08e7a5d4f49c6455c9',1,'Core::CPU::CPU']]],
-  ['ah',['AH',['../classCore_1_1CPU_1_1CPU.html#a558dfb22afa346ba18becc276241fa95',1,'Core::CPU::CPU']]],
-  ['al',['AL',['../classCore_1_1CPU_1_1CPU.html#a988be46e61e5a5426092b9a173a7fc67',1,'Core::CPU::CPU']]],
-  ['ax',['AX',['../classCore_1_1CPU_1_1CPU.html#af5de0e57cfbf7e6786304665e4e95aa9',1,'Core::CPU::CPU']]]
+  ['af',['AF',['../namespaceCore_1_1CPU.html#a8f73629d520ee5c47dad26d5cd10a09b',1,'Core::CPU']]],
+  ['ah',['AH',['../namespaceCore_1_1CPU.html#a50a4c328da578a98c1bfe652e961f236',1,'Core::CPU']]],
+  ['al',['AL',['../namespaceCore_1_1CPU.html#ac5eca2ddd92259063370ae2bac529a80',1,'Core::CPU']]],
+  ['ax',['AX',['../namespaceCore_1_1CPU.html#aa66ef4dc18daa62c168f72ac46dc9b8e',1,'Core::CPU']]]
 ];

@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ape
-   &#160;<span id="projectnumber">DONTRELEASEME-148</span>
+   &#160;<span id="projectnumber">0.0.1</span>
    </div>
   </td>
  </tr>
@@ -67,24 +67,32 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
 <div class="title">Exception.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;exception&gt;</code><br />
+<code>#include &quot;<a class="el" href="Instruction_8h_source.html">Core/CPU/Instruction.h</a>&quot;</code><br />
 </div>
 <p><a href="Exception_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1CPU_1_1CPUException.html">Core::CPU::CPUException</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class thrown by every <a class="el" href="namespaceCore_1_1CPU.html" title="Representation of the Central Processing Unit. ">CPU</a> related exception.  <a href="classCore_1_1CPU_1_1CPUException.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1CPU_1_1InvalidInstructionException.html">Core::CPU::InvalidInstructionException</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1CPU_1_1UnhandledInstructionException.html">Core::CPU::UnhandledInstructionException</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thrown when the <a class="el" href="classCore_1_1CPU_1_1CPU.html" title="Representation of the Central Processing Unit. ">CPU</a> hits an unimplemented <a class="el" href="classCore_1_1CPU_1_1Instruction.html#a966e6bbf5bbb72cce5618a5731bea88a" title="Determines the type of the instruction. ">Instruction::Type</a>.  <a href="classCore_1_1CPU_1_1UnhandledInstructionException.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thrown when the <a class="el" href="namespaceCore_1_1CPU.html" title="Representation of the Central Processing Unit. ">CPU</a> hits an unimplemented <a class="el" href="classCore_1_1CPU_1_1Instruction.html#a966e6bbf5bbb72cce5618a5731bea88a" title="Determines the type of the instruction. ">Instruction::Type</a>.  <a href="classCore_1_1CPU_1_1UnhandledInstructionException.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1CPU_1_1UnhandledParameterException.html">Core::CPU::UnhandledParameterException</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thrown when the <a class="el" href="classCore_1_1CPU_1_1CPU.html" title="Representation of the Central Processing Unit. ">CPU</a> hits an unimplemented <a class="el" href="classCore_1_1CPU_1_1Instruction_1_1Parameter.html#a71c9feea0562914e2b2d9ac13c995e56" title="Enum to determine the types of parameters. ">Instruction::Parameter::Type</a>.  <a href="classCore_1_1CPU_1_1UnhandledParameterException.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thrown when the <a class="el" href="namespaceCore_1_1CPU.html" title="Representation of the Central Processing Unit. ">CPU</a> hits an unimplemented <a class="el" href="classCore_1_1CPU_1_1Instruction_1_1Parameter.html#a71c9feea0562914e2b2d9ac13c995e56" title="Enum to determine the types of parameters. ">Instruction::Parameter::Type</a>.  <a href="classCore_1_1CPU_1_1UnhandledParameterException.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1CPU_1_1InvalidParameterException.html">Core::CPU::InvalidParameterException</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thrown when the <a class="el" href="namespaceCore_1_1CPU.html" title="Representation of the Central Processing Unit. ">CPU</a> hits an invalid mod byte that can't be decoded.  <a href="classCore_1_1CPU_1_1InvalidParameterException.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1CPU_1_1ParameterLengthMismatchException.html">Core::CPU::ParameterLengthMismatchException</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -93,6 +101,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1CPU_1_1UnhandledInterruptException.html">Core::CPU::UnhandledInterruptException</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Thrown when a interrupt is neither handled by software nor hardware.  <a href="classCore_1_1CPU_1_1UnhandledInterruptException.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespaceCore_1_1CPU"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCore_1_1CPU.html">Core::CPU</a></td></tr>
+<tr class="memdesc:namespaceCore_1_1CPU"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of the Central Processing Unit. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

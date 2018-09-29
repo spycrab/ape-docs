@@ -1,11 +1,11 @@
 var searchData=
 [
   ['segmentprefix',['SegmentPrefix',['../classCore_1_1CPU_1_1Instruction.html#ae0294d11c2f1ad819b7aeb884066fcc3',1,'Core::CPU::Instruction']]],
-  ['sf',['SF',['../classCore_1_1CPU_1_1CPU.html#a352c9838c56955b6eca1693a94f6886e',1,'Core::CPU::CPU']]],
-  ['shutdown',['Shutdown',['../classCore_1_1Machine.html#acf2bdfcd7fa7574791985e605ca139a9',1,'Core::Machine']]],
-  ['si',['SI',['../classCore_1_1CPU_1_1CPU.html#afba7dc5b62e6d5e0fbdfc179bcf98a1f',1,'Core::CPU::CPU']]],
-  ['simulate_5fmsdos',['simulate_msdos',['../classCore_1_1CPU_1_1CPU.html#afd994ad40ad79848d557b9be4e6467bd',1,'Core::CPU::CPU']]],
-  ['sp',['SP',['../classCore_1_1CPU_1_1CPU.html#a99884b165a6efd0e6800e043b4966587',1,'Core::CPU::CPU']]],
-  ['ss',['SS',['../classCore_1_1CPU_1_1CPU.html#ac09866a39e340abf2b72f10555b7966e',1,'Core::CPU::CPU']]],
-  ['start',['Start',['../classCore_1_1CPU_1_1CPU.html#aab5d4cd0f7d7313acc7e92616312df8f',1,'Core::CPU::CPU']]]
+  ['sf',['SF',['../namespaceCore_1_1CPU.html#abffb4265993901e2239cfd9de1ba7420',1,'Core::CPU']]],
+  ['si',['SI',['../namespaceCore_1_1CPU.html#a26fda0befbb450dbdb1514a2fee9c58b',1,'Core::CPU']]],
+  ['simulate_5fmsdos',['simulate_msdos',['../namespaceCore_1_1CPU.html#a702945e94be47c914f7c93e9d2b14dd1',1,'Core::CPU']]],
+  ['sp',['SP',['../namespaceCore_1_1CPU.html#a4dc43e4e8eaf558bcda753284c83fac0',1,'Core::CPU']]],
+  ['ss',['SS',['../namespaceCore_1_1CPU.html#a26930da062d3c4a1868944765b499ced',1,'Core::CPU']]],
+  ['start',['Start',['../namespaceCore_1_1CPU.html#a07620d621a62b52d756895806356369c',1,'Core::CPU']]],
+  ['stop',['Stop',['../namespaceCore_1_1CPU.html#aa8cb8b4075ef09ca3e5c936516320fe3',1,'Core::CPU::Stop()'],['../namespaceCore_1_1Machine.html#a122862f0c202c800bb55f3a6804b0422',1,'Core::Machine::Stop()']]]
 ];

@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['bh',['BH',['../classCore_1_1CPU_1_1CPU.html#a75af00dff8edf74042e3007d677f83bd',1,'Core::CPU::CPU']]],
-  ['bl',['BL',['../classCore_1_1CPU_1_1CPU.html#afc527bddaa777530f48d517d47cef04e',1,'Core::CPU::CPU']]],
-  ['bp',['BP',['../classCore_1_1CPU_1_1CPU.html#afdb3284dddd83961c2ad999ffa0b6bc0',1,'Core::CPU::CPU']]],
-  ['bx',['BX',['../classCore_1_1CPU_1_1CPU.html#a3323aa0a8683f02e87660460838b47e9',1,'Core::CPU::CPU']]]
+  ['bh',['BH',['../namespaceCore_1_1CPU.html#acd0e4a281cc3fc2826d23445eeb3533f',1,'Core::CPU']]],
+  ['bl',['BL',['../namespaceCore_1_1CPU.html#ab04a4b68a8117e61f818039e0332f5ff',1,'Core::CPU']]],
+  ['bp',['BP',['../namespaceCore_1_1CPU.html#a6214254be9fbc01513495b643c6256ec',1,'Core::CPU']]],
+  ['bx',['BX',['../namespaceCore_1_1CPU.html#a72a6a0a146a5b8c2285a046ccd6be642',1,'Core::CPU']]]
 ];

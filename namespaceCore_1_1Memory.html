@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.14"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Ape: Core::Memory Class Reference</title>
+<title>Ape: Core::Memory Namespace Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ape
-   &#160;<span id="projectnumber">DONTRELEASEME-148</span>
+   &#160;<span id="projectnumber">0.0.1</span>
    </div>
   </td>
  </tr>
@@ -62,34 +62,30 @@ $(function() {
 
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><b>Core</b></li><li class="navelem"><a class="el" href="classCore_1_1Memory.html">Memory</a></li>  </ul>
+<li class="navelem"><b>Core</b></li><li class="navelem"><a class="el" href="namespaceCore_1_1Memory.html">Memory</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="classCore_1_1Memory-members.html">List of all members</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">Core::Memory Class Reference</div>  </div>
+<div class="title">Core::Memory Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p>Wrapper around emulated RAM.  
- <a href="classCore_1_1Memory.html#details">More...</a></p>
-
-<p><code>#include &lt;<a class="el" href="Memory_8h_source.html">Memory.h</a>&gt;</code></p>
+<a href="#details">More...</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a455192d00ede980f020f0e8217deb646"><td class="memItemLeft" align="right" valign="top"><a id="a455192d00ede980f020f0e8217deb646"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Memory.html#a455192d00ede980f020f0e8217deb646">Memory</a> (<a class="el" href="Types_8h.html#a70c1fcc1a4e96af8f6580f708657cd41">u32</a> size)</td></tr>
-<tr class="memdesc:a455192d00ede980f020f0e8217deb646"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create <a class="el" href="classCore_1_1Memory.html" title="Wrapper around emulated RAM. ">Memory</a> of the specified size (in bytes) <br /></td></tr>
-<tr class="separator:a455192d00ede980f020f0e8217deb646"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
 <tr class="memitem:a9fa018e5727840bcb8b1efcc04483430"><td class="memItemLeft" align="right" valign="top"><a id="a9fa018e5727840bcb8b1efcc04483430"></a>
-std::vector&lt; <a class="el" href="Types_8h.html#a987e4d6cf789cb59dbb390728271e4d6">u8</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Memory.html#a9fa018e5727840bcb8b1efcc04483430">Get</a> ()</td></tr>
+std::vector&lt; <a class="el" href="Types_8h.html#a987e4d6cf789cb59dbb390728271e4d6">u8</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCore_1_1Memory.html#a9fa018e5727840bcb8b1efcc04483430">Get</a> ()</td></tr>
 <tr class="memdesc:a9fa018e5727840bcb8b1efcc04483430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the contents of RAM. <br /></td></tr>
 <tr class="separator:a9fa018e5727840bcb8b1efcc04483430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0395360dddab151cbf0be27d06a35f0"><td class="memItemLeft" align="right" valign="top"><a id="ad0395360dddab151cbf0be27d06a35f0"></a>
+<a class="el" href="Types_8h.html#a70c1fcc1a4e96af8f6580f708657cd41">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCore_1_1Memory.html#ad0395360dddab151cbf0be27d06a35f0">VirtToPhys</a> (<a class="el" href="Types_8h.html#a6dbf9516e516c901604625282c174aa4">u16</a> segment, <a class="el" href="Types_8h.html#a6dbf9516e516c901604625282c174aa4">u16</a> offset)</td></tr>
+<tr class="memdesc:ad0395360dddab151cbf0be27d06a35f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a virtual address to an absolute one. <br /></td></tr>
+<tr class="separator:ad0395360dddab151cbf0be27d06a35f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6d09407d5c4354affcf7439a0dfe8fa"><td class="memTemplParams" colspan="2"><a id="ac6d09407d5c4354affcf7439a0dfe8fa"></a>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ac6d09407d5c4354affcf7439a0dfe8fa"><td class="memTemplItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>Get</b> (<a class="el" href="Types_8h.html#a6dbf9516e516c901604625282c174aa4">u16</a> segment, <a class="el" href="Types_8h.html#a6dbf9516e516c901604625282c174aa4">u16</a> offset)</td></tr>
@@ -98,21 +94,10 @@ template&lt;typename T &gt; </td></tr>
 template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a8e8ad4c38e53c5f428b91a0fa206ef9e"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><b>GetPtr</b> (<a class="el" href="Types_8h.html#a6dbf9516e516c901604625282c174aa4">u16</a> segment, <a class="el" href="Types_8h.html#a6dbf9516e516c901604625282c174aa4">u16</a> offset)</td></tr>
 <tr class="separator:a8e8ad4c38e53c5f428b91a0fa206ef9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ad0395360dddab151cbf0be27d06a35f0"><td class="memItemLeft" align="right" valign="top"><a id="ad0395360dddab151cbf0be27d06a35f0"></a>
-static <a class="el" href="Types_8h.html#a70c1fcc1a4e96af8f6580f708657cd41">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Memory.html#ad0395360dddab151cbf0be27d06a35f0">VirtToPhys</a> (<a class="el" href="Types_8h.html#a6dbf9516e516c901604625282c174aa4">u16</a> segment, <a class="el" href="Types_8h.html#a6dbf9516e516c901604625282c174aa4">u16</a> offset)</td></tr>
-<tr class="memdesc:ad0395360dddab151cbf0be27d06a35f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a virtual address to an absolute one. <br /></td></tr>
-<tr class="separator:ad0395360dddab151cbf0be27d06a35f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Wrapper around emulated RAM. </p>
-</div><hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/max/sources/ape/Source/Core/<a class="el" href="Memory_8h_source.html">Memory.h</a></li>
-<li>/home/max/sources/ape/Source/Core/Memory.cpp</li>
-</ul>
-</div><!-- contents -->
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

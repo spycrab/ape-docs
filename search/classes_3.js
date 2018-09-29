@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['machine',['Machine',['../classCore_1_1Machine.html',1,'Core']]],
-  ['mainwindow',['MainWindow',['../classMainWindow.html',1,'']]],
-  ['memory',['Memory',['../classCore_1_1Memory.html',1,'Core']]]
+  ['instruction',['Instruction',['../classCore_1_1CPU_1_1Instruction.html',1,'Core::CPU']]],
+  ['invalidinstructionexception',['InvalidInstructionException',['../classCore_1_1CPU_1_1InvalidInstructionException.html',1,'Core::CPU']]],
+  ['invalidparameterexception',['InvalidParameterException',['../classCore_1_1CPU_1_1InvalidParameterException.html',1,'Core::CPU']]]
 ];

@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ape
-   &#160;<span id="projectnumber">DONTRELEASEME-148</span>
+   &#160;<span id="projectnumber">0.0.1</span>
    </div>
   </td>
  </tr>
@@ -67,23 +67,43 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Machine.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="CPU_8h_source.html">Core/CPU/CPU.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="FloppyDrive_8h_source.html">Core/HW/FloppyDrive.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="Memory_8h_source.html">Core/Memory.h</a>&quot;</code><br />
-<code>#include &lt;vector&gt;</code><br />
+<div class="textblock"><code>#include &lt;string&gt;</code><br />
 </div>
 <p><a href="Machine_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Machine.html">Core::Machine</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a PC.  <a href="classCore_1_1Machine.html#details">More...</a><br /></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespaceCore_1_1Machine"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCore_1_1Machine.html">Core::Machine</a></td></tr>
+<tr class="memdesc:namespaceCore_1_1Machine"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representation of a PC. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a721f168df263ed5b64ea38e5a101f9f8"><td class="memItemLeft" align="right" valign="top"><a id="a721f168df263ed5b64ea38e5a101f9f8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>Core::Machine::Init</b> ()</td></tr>
+<tr class="separator:a721f168df263ed5b64ea38e5a101f9f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e01808af639ffb6b618c2d11df6848b"><td class="memItemLeft" align="right" valign="top"><a id="a4e01808af639ffb6b618c2d11df6848b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCore_1_1Machine.html#a4e01808af639ffb6b618c2d11df6848b">Core::Machine::BootFloppy</a> ()</td></tr>
+<tr class="memdesc:a4e01808af639ffb6b618c2d11df6848b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boot the machine from the floppy drive. <br /></td></tr>
+<tr class="separator:a4e01808af639ffb6b618c2d11df6848b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a122862f0c202c800bb55f3a6804b0422"><td class="memItemLeft" align="right" valign="top"><a id="a122862f0c202c800bb55f3a6804b0422"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCore_1_1Machine.html#a122862f0c202c800bb55f3a6804b0422">Core::Machine::Stop</a> ()</td></tr>
+<tr class="memdesc:a122862f0c202c800bb55f3a6804b0422"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop the machine. <br /></td></tr>
+<tr class="separator:a122862f0c202c800bb55f3a6804b0422"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b09e852160af41673ab9c7ca6e2e19c"><td class="memItemLeft" align="right" valign="top"><a id="a9b09e852160af41673ab9c7ca6e2e19c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCore_1_1Machine.html#a9b09e852160af41673ab9c7ca6e2e19c">Core::Machine::Pause</a> ()</td></tr>
+<tr class="memdesc:a9b09e852160af41673ab9c7ca6e2e19c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pause the machine (Or unpause it if it's paused already) <br /></td></tr>
+<tr class="separator:a9b09e852160af41673ab9c7ca6e2e19c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a306cb57679cdf4129ed453014c63b4ad"><td class="memItemLeft" align="right" valign="top"><a id="a306cb57679cdf4129ed453014c63b4ad"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCore_1_1Machine.html#a306cb57679cdf4129ed453014c63b4ad">Core::Machine::BootCOM</a> (const std::string &amp;file, const std::string &amp;&amp;parameters=&quot;&quot;)</td></tr>
+<tr class="memdesc:a306cb57679cdf4129ed453014c63b4ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Directly execute a COM file. <br /></td></tr>
+<tr class="separator:a306cb57679cdf4129ed453014c63b4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

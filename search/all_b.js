@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['of',['OF',['../classCore_1_1CPU_1_1CPU.html#a3a52a95a62a2e4349247d0e7ed32e561',1,'Core::CPU::CPU']]]
+  ['of',['OF',['../namespaceCore_1_1CPU.html#ae7ea514adbb4954f28f55af5af22a6f2',1,'Core::CPU']]]
 ];

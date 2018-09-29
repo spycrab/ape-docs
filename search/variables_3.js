@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['df',['DF',['../classCore_1_1CPU_1_1CPU.html#a6e8c76c9a42ec6da729c63edd20c19fe',1,'Core::CPU::CPU']]],
-  ['dh',['DH',['../classCore_1_1CPU_1_1CPU.html#a7ffae31c833368d3f21c121fad4c0c93',1,'Core::CPU::CPU']]],
-  ['di',['DI',['../classCore_1_1CPU_1_1CPU.html#a2009f80beab792d086d2e8aa8c28a757',1,'Core::CPU::CPU']]],
-  ['dl',['DL',['../classCore_1_1CPU_1_1CPU.html#a2c32d5acb2de75b47bc119c846dcad7d',1,'Core::CPU::CPU']]],
-  ['ds',['DS',['../classCore_1_1CPU_1_1CPU.html#aabf0bf8dda4aef86ae51688fb5f1e4df',1,'Core::CPU::CPU']]],
-  ['dx',['DX',['../classCore_1_1CPU_1_1CPU.html#a9b3f0d7915b90975f3747aea1ce301e1',1,'Core::CPU::CPU']]]
+  ['df',['DF',['../namespaceCore_1_1CPU.html#adb9cae25970d9526f4f18abfad02eee0',1,'Core::CPU']]],
+  ['dh',['DH',['../namespaceCore_1_1CPU.html#a21d54f5daf17ffa5d4496e0985a62cc4',1,'Core::CPU']]],
+  ['di',['DI',['../namespaceCore_1_1CPU.html#ad43f3eeb398e079fb019b296304b9314',1,'Core::CPU']]],
+  ['dl',['DL',['../namespaceCore_1_1CPU.html#aa2aaa7ce67e3693b5565f26982999fb3',1,'Core::CPU']]],
+  ['ds',['DS',['../namespaceCore_1_1CPU.html#a80f6571c66a5a058c871e204d0d2cd52',1,'Core::CPU']]],
+  ['dx',['DX',['../namespaceCore_1_1CPU.html#aff4504b27eb6011f8160653a98f2d4dd',1,'Core::CPU']]]
 ];

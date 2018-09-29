@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ape
-   &#160;<span id="projectnumber">DONTRELEASEME-148</span>
+   &#160;<span id="projectnumber">0.0.1</span>
    </div>
   </td>
  </tr>
@@ -67,7 +67,8 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Memory.h File Reference</div>  </div>
 </div><!--header-->
@@ -77,11 +78,30 @@ $(function() {
 </div>
 <p><a href="Memory_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCore_1_1Memory.html">Core::Memory</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper around emulated RAM.  <a href="classCore_1_1Memory.html#details">More...</a><br /></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespaceCore_1_1Memory"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCore_1_1Memory.html">Core::Memory</a></td></tr>
+<tr class="memdesc:namespaceCore_1_1Memory"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wrapper around emulated RAM. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a9fa018e5727840bcb8b1efcc04483430"><td class="memItemLeft" align="right" valign="top"><a id="a9fa018e5727840bcb8b1efcc04483430"></a>
+std::vector&lt; <a class="el" href="Types_8h.html#a987e4d6cf789cb59dbb390728271e4d6">u8</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCore_1_1Memory.html#a9fa018e5727840bcb8b1efcc04483430">Core::Memory::Get</a> ()</td></tr>
+<tr class="memdesc:a9fa018e5727840bcb8b1efcc04483430"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the contents of RAM. <br /></td></tr>
+<tr class="separator:a9fa018e5727840bcb8b1efcc04483430"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0395360dddab151cbf0be27d06a35f0"><td class="memItemLeft" align="right" valign="top"><a id="ad0395360dddab151cbf0be27d06a35f0"></a>
+<a class="el" href="Types_8h.html#a70c1fcc1a4e96af8f6580f708657cd41">u32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCore_1_1Memory.html#ad0395360dddab151cbf0be27d06a35f0">Core::Memory::VirtToPhys</a> (<a class="el" href="Types_8h.html#a6dbf9516e516c901604625282c174aa4">u16</a> segment, <a class="el" href="Types_8h.html#a6dbf9516e516c901604625282c174aa4">u16</a> offset)</td></tr>
+<tr class="memdesc:ad0395360dddab151cbf0be27d06a35f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a virtual address to an absolute one. <br /></td></tr>
+<tr class="separator:ad0395360dddab151cbf0be27d06a35f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6d09407d5c4354affcf7439a0dfe8fa"><td class="memTemplParams" colspan="2"><a id="ac6d09407d5c4354affcf7439a0dfe8fa"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ac6d09407d5c4354affcf7439a0dfe8fa"><td class="memTemplItemLeft" align="right" valign="top">T &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><b>Core::Memory::Get</b> (<a class="el" href="Types_8h.html#a6dbf9516e516c901604625282c174aa4">u16</a> segment, <a class="el" href="Types_8h.html#a6dbf9516e516c901604625282c174aa4">u16</a> offset)</td></tr>
+<tr class="separator:ac6d09407d5c4354affcf7439a0dfe8fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e8ad4c38e53c5f428b91a0fa206ef9e"><td class="memTemplParams" colspan="2"><a id="a8e8ad4c38e53c5f428b91a0fa206ef9e"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a8e8ad4c38e53c5f428b91a0fa206ef9e"><td class="memTemplItemLeft" align="right" valign="top">T *&#160;</td><td class="memTemplItemRight" valign="bottom"><b>Core::Memory::GetPtr</b> (<a class="el" href="Types_8h.html#a6dbf9516e516c901604625282c174aa4">u16</a> segment, <a class="el" href="Types_8h.html#a6dbf9516e516c901604625282c174aa4">u16</a> offset)</td></tr>
+<tr class="separator:a8e8ad4c38e53c5f428b91a0fa206ef9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['parameter',['Parameter',['../classCore_1_1CPU_1_1Instruction_1_1Parameter.html#a5a4bc3de7c05a8ebeaa9f59fdfe34005',1,'Core::CPU::Instruction::Parameter']]],
-  ['parameterneedsresolving',['ParameterNeedsResolving',['../Instruction_8h.html#ab044897b3b8dbfce3f93ec0ae1b9248b',1,'Core::CPU']]],
-  ['parametertypetostring',['ParameterTypeToString',['../Instruction_8h.html#ade0473cc862997286395437c0945b3b7',1,'Core::CPU']]]
+  ['read',['Read',['../namespaceCore_1_1HW_1_1FloppyDrive.html#a94c609bb0ec69c4168c65bc7d4d59ad1',1,'Core::HW::FloppyDrive']]],
+  ['resolve',['Resolve',['../classCore_1_1CPU_1_1Instruction_1_1Parameter.html#af0c95a73230d6275a2397921c08fa756',1,'Core::CPU::Instruction::Parameter::Resolve(u32 data)'],['../classCore_1_1CPU_1_1Instruction_1_1Parameter.html#a34d4682025400dcd126b9f7e94dc9302',1,'Core::CPU::Instruction::Parameter::Resolve(Parameter::Type type, u32 data=0)'],['../classCore_1_1CPU_1_1Instruction.html#a6509894761fa743ac526948295f2a0e9',1,'Core::CPU::Instruction::Resolve()']]]
 ];
