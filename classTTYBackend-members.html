@@ -22,7 +22,7 @@
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Ape
-   &#160;<span id="projectnumber">DONTRELEASEME-133</span>
+   &#160;<span id="projectnumber">DONTRELEASEME-148</span>
    </div>
   </td>
  </tr>
@@ -72,13 +72,14 @@ $(function() {
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>Clear</b>()=0 (defined in <a class="el" href="classTTYBackend.html">TTYBackend</a>)</td><td class="entry"><a class="el" href="classTTYBackend.html">TTYBackend</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr bgcolor="#f0f0f0"><td class="entry"><b>GetCursorColumn</b>() const =0 (defined in <a class="el" href="classTTYBackend.html">TTYBackend</a>)</td><td class="entry"><a class="el" href="classTTYBackend.html">TTYBackend</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
   <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>GetCursorRow</b>() const =0 (defined in <a class="el" href="classTTYBackend.html">TTYBackend</a>)</td><td class="entry"><a class="el" href="classTTYBackend.html">TTYBackend</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>MoveCursor</b>(const u32, const u32)=0 (defined in <a class="el" href="classTTYBackend.html">TTYBackend</a>)</td><td class="entry"><a class="el" href="classTTYBackend.html">TTYBackend</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>Read</b>()=0 (defined in <a class="el" href="classTTYBackend.html">TTYBackend</a>)</td><td class="entry"><a class="el" href="classTTYBackend.html">TTYBackend</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>Scroll</b>(const u8 lines, const u8 colors)=0 (defined in <a class="el" href="classTTYBackend.html">TTYBackend</a>)</td><td class="entry"><a class="el" href="classTTYBackend.html">TTYBackend</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>SetCursorColumn</b>(u8 column)=0 (defined in <a class="el" href="classTTYBackend.html">TTYBackend</a>)</td><td class="entry"><a class="el" href="classTTYBackend.html">TTYBackend</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>SetCursorRow</b>(u8 row)=0 (defined in <a class="el" href="classTTYBackend.html">TTYBackend</a>)</td><td class="entry"><a class="el" href="classTTYBackend.html">TTYBackend</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>Write</b>(const std::string &amp;string)=0 (defined in <a class="el" href="classTTYBackend.html">TTYBackend</a>)</td><td class="entry"><a class="el" href="classTTYBackend.html">TTYBackend</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
-  <tr bgcolor="#f0f0f0"><td class="entry"><b>Write</b>(const char c)=0 (defined in <a class="el" href="classTTYBackend.html">TTYBackend</a>)</td><td class="entry"><a class="el" href="classTTYBackend.html">TTYBackend</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>IsCharAvailable</b>() const =0 (defined in <a class="el" href="classTTYBackend.html">TTYBackend</a>)</td><td class="entry"><a class="el" href="classTTYBackend.html">TTYBackend</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>MoveCursor</b>(const u32, const u32)=0 (defined in <a class="el" href="classTTYBackend.html">TTYBackend</a>)</td><td class="entry"><a class="el" href="classTTYBackend.html">TTYBackend</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>Read</b>()=0 (defined in <a class="el" href="classTTYBackend.html">TTYBackend</a>)</td><td class="entry"><a class="el" href="classTTYBackend.html">TTYBackend</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>Scroll</b>(const u8 lines, const u8 colors)=0 (defined in <a class="el" href="classTTYBackend.html">TTYBackend</a>)</td><td class="entry"><a class="el" href="classTTYBackend.html">TTYBackend</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>SetCursorColumn</b>(u8 column)=0 (defined in <a class="el" href="classTTYBackend.html">TTYBackend</a>)</td><td class="entry"><a class="el" href="classTTYBackend.html">TTYBackend</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>SetCursorRow</b>(u8 row)=0 (defined in <a class="el" href="classTTYBackend.html">TTYBackend</a>)</td><td class="entry"><a class="el" href="classTTYBackend.html">TTYBackend</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0"><td class="entry"><b>Write</b>(const std::string &amp;string)=0 (defined in <a class="el" href="classTTYBackend.html">TTYBackend</a>)</td><td class="entry"><a class="el" href="classTTYBackend.html">TTYBackend</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
+  <tr bgcolor="#f0f0f0" class="even"><td class="entry"><b>Write</b>(const char c)=0 (defined in <a class="el" href="classTTYBackend.html">TTYBackend</a>)</td><td class="entry"><a class="el" href="classTTYBackend.html">TTYBackend</a></td><td class="entry"><span class="mlabel">pure virtual</span></td></tr>
 </table></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
